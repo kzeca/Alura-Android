@@ -7,20 +7,21 @@
     android:orientation="vertical">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:id="@+id/activity_main_fab_addStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="26dp"
-        android:layout_marginBottom="26dp"
+        android:layout_margin="16dp"
         android:clickable="true"
-        app:backgroundTint="#E91E63" />
+        app:backgroundTint="#E91E63"
+        android:focusable="true"
+        android:src="@drawable/ic_baseline_add_24"/>
 
     <ListView
-        android:id="@+id/activity_main_listView_alunos"
+        android:id="@+id/activity_main_listView_Students"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
     </ListView>
 
